@@ -1,0 +1,11 @@
+name: TokenRewards
+main: me.johnathanbrown.token.Main
+version: 1.0
+authors: [2complexxx, JohnathanBrown]
+softdepend: [GriefPrevention]
+commands:
+   tokens:
+      description: Basic token economic commands
+   atokens:
+      description: Admin Token commands
+      permissions: tokens.admin
